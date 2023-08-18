@@ -85,5 +85,7 @@ class Ribbit
         }
 
         // Create a parser and attempt to parse the tokens.
+        Parser parser = new Parser(logger, tokens);
+        List<Node> nodes = parser.Parse();
     }
 }

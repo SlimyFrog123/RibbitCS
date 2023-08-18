@@ -1,4 +1,4 @@
-﻿namespace RibbitCS.Parser.Node.Math;
+﻿namespace RibbitCS;
 
 public class DecrementNode : MathNode
 {

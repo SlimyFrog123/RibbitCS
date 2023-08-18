@@ -1,4 +1,4 @@
-﻿namespace RibbitCS.Parser;
+﻿namespace RibbitCS;
 
 public class Parser
 {
@@ -32,5 +32,14 @@ public class Parser
             _currentToken = null;
             _state = State.Stop;
         }
+    }
+
+    public List<Node> Parse()
+    {
+        List<Node> nodes = new List<Node>();
+
+        
+
+        return nodes;
     }
 }

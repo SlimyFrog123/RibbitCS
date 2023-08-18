@@ -1,4 +1,4 @@
-﻿namespace RibbitCS.Parser.Node;
+﻿namespace RibbitCS;
 
 public class AssignNode : Node
 {

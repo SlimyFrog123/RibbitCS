@@ -1,4 +1,4 @@
-﻿namespace RibbitCS.Parser.Node.Math.Positional;
+﻿namespace RibbitCS;
 
 public class PositionalRemainderNode : PositionalMathNode
 {
